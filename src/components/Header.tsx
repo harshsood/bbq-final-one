@@ -18,7 +18,12 @@ const Header = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-blue-600 text-white py-2 px-4 text-sm">
+      <div
+        className={`bg-blue-600 text-white py-2 px-4 text-sm transition-all duration-300 fixed w-full z-[60] ${
+          isScrolled ? 'max-h-0 opacity-0 overflow-hidden pointer-events-none' : 'max-h-20 opacity-100'
+        }`}
+        style={{ top: 0 }}
+      >
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between">
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
@@ -41,9 +46,14 @@ const Header = () => {
       </div>
 
       {/* Main Header */}
-      <header className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg py-2' : 'bg-white/95 backdrop-blur-sm py-4'
-      }`}>
+      <header
+        className={`fixed w-full z-50 transition-all duration-300 ${
+          isScrolled ? 'top-0 bg-white shadow-lg py-2' : 'top-8 bg-white/95 backdrop-blur-sm py-4'
+        }`}
+        style={{
+          top: isScrolled ? 0 : '2.5rem', // 2.5rem = 40px (top bar height)
+        }}
+      >
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center">
