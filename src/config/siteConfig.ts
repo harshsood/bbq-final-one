@@ -42,7 +42,7 @@ export const siteConfig = {
           'Quality gas cylinders',
           'Professional technicians'
         ],
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.30-PM-1.jpeg' // team/technician
+  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.34-PM-1.jpeg' // cylinders group
       },
       {
         id: 'bbq-gas-supply',
@@ -57,7 +57,7 @@ export const siteConfig = {
           'Event gas supply',
           'Emergency delivery'
         ],
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.36-PM.jpeg' // cylinder/delivery
+  image: '/images/all/icon3-cc0rawpixel-150x150.png' // BBQ grill (closest available)
       },
       {
         id: 'new-cooking-gas-connection',
@@ -72,7 +72,7 @@ export const siteConfig = {
           'Quality assurance',
           'Same-day connection'
         ],
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpeg' // installation/team
+  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg' // single cylinder
       },
       {
         id: 'bbq-cleaning-service',
@@ -87,7 +87,7 @@ export const siteConfig = {
           'Equipment sanitization',
           'Post-cleaning inspection'
         ],
-  image: '/images/all/icon4-cc0rawpixel-150x150.png' // heater/cylinder
+  image: '/images/all/hah-1.jpg' // cleaning grill (best match)
       },
       {
         id: 'propane-gas-supplier',
@@ -102,7 +102,7 @@ export const siteConfig = {
           'Quality propane cylinders',
           'Bulk supply available'
         ],
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg' // delivery truck/cylinder
+  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.30-PM-1.jpeg' // truck
       },
       {
         id: 'heater-gas-supplier',
@@ -117,7 +117,7 @@ export const siteConfig = {
           'Dubai-wide delivery',
           'Quality gas cylinders'
         ],
-  image: '/images/all/hah-1.jpg' // cleaning/team
+  image: '/images/all/icon4-cc0rawpixel-150x150.png' // heater/cylinder (best available)
       }
     ]
   },
@@ -205,7 +205,7 @@ export const siteConfig = {
       rating: 5,
       comment: 'Excellent service! BBQ Gas provided same-day LPG connection for my new apartment. Professional technicians and great customer service.',
       service: 'LPG Gas Connection',
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpeg'
+    image: '/images/all/avatar.svg'
     },
     {
       id: 2,
@@ -214,7 +214,7 @@ export const siteConfig = {
       rating: 5,
       comment: 'Best BBQ gas supplier in Dubai! Never run out of gas during our weekend BBQ parties. Fast delivery and quality service.',
       service: 'BBQ Gas Supply',
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.36-PM.jpeg'
+    image: '/images/all/avatar.svg'
     },
     {
       id: 3,
@@ -223,7 +223,7 @@ export const siteConfig = {
       rating: 5,
       comment: 'Professional cooking gas connection service. The technicians were knowledgeable and completed the installation perfectly.',
       service: 'New Cooking Gas Connection',
-  image: '/images/all/icon2-cc0rawpixel-150x150.png'
+    image: '/images/all/avatar.svg'
     },
     {
       id: 4,
@@ -232,7 +232,7 @@ export const siteConfig = {
       rating: 5,
       comment: 'Amazing BBQ cleaning service! My grill looks brand new. Professional team and excellent attention to detail.',
       service: 'BBQ Cleaning Service',
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.36-PM.jpeg'
+    image: '/images/all/avatar.svg'
     },
     {
       id: 5,
@@ -241,7 +241,7 @@ export const siteConfig = {
       rating: 5,
       comment: 'Reliable propane gas supplier for our restaurant. Consistent quality and timely delivery. Highly recommended!',
       service: 'Propane Gas Supplier',
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpeg'
+    image: '/images/all/avatar.svg'
     },
     {
       id: 6,
@@ -250,7 +250,7 @@ export const siteConfig = {
       rating: 5,
       comment: 'Perfect heater gas supply for our outdoor events. Professional service and competitive pricing.',
       service: 'Heater Gas Supplier',
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.36-PM.jpeg'
+    image: '/images/all/avatar.svg'
     }
   ]
 };
