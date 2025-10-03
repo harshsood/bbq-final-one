@@ -30,17 +30,6 @@ const Header = () => {
               <Phone size={14} />
               <span>+971 58 282 1712</span>
             </div>
-            <div className="flex items-center space-x-2">
-              <MapPin size={14} />
-              <span>Dubai, UAE</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Clock size={14} />
-              <span>24/7 Emergency Service</span>
-            </div>
-          </div>
-          <div className="hidden md:block">
-            <span>Licensed & Insured • Same Day Delivery</span>
           </div>
         </div>
       </div>
