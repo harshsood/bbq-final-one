@@ -97,7 +97,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-3xl transform rotate-3 opacity-20"></div>
             <div className="relative bg-white p-8 rounded-3xl shadow-2xl">
               <img
-                src="/images/all/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg"
+                src="/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpeg"
                 alt="BBQ Gas Delivery Truck in Dubai"
                 className="w-full h-96 object-cover rounded-2xl"
               />
