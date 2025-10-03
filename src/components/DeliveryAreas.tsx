@@ -22,22 +22,10 @@ const DeliveryAreas = () => {
       color: 'green'
     },
     {
-      zone: 'Deira & Bur Dubai',
-      areas: ['Deira', 'Bur Dubai', 'Karama', 'Oud Metha'],
-      deliveryTime: '40-55 mins',
-      color: 'purple'
-    },
-    {
       zone: 'New Dubai Areas',
       areas: ['Dubai Hills', 'JVC', 'JVT', 'Motor City', 'Sports City'],
       deliveryTime: '45-60 mins',
       color: 'red'
-    },
-    {
-      zone: 'Northern Emirates',
-      areas: ['Sharjah', 'Ajman', 'RAK', 'Fujairah'],
-      deliveryTime: '60-90 mins',
-      color: 'indigo'
     }
   ];
 
