@@ -38,7 +38,7 @@ const HeroSection = () => {
   }, [currentText, isDeleting, currentIndex, typeSpeed, texts]);
 
   return (
-    <Section background="gradient" className="min-h-screen pt-32 pb-16">
+    <Section background="gradient" className="min-h-screen pt-40 pb-16">
       <Container>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
