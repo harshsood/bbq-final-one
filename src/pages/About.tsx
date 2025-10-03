@@ -35,19 +35,19 @@ const About = () => {
     {
       name: 'Ahmed Al-Rashid',
       position: 'Operations Manager',
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpe',
+  image: '/images/all/avatar.svg',
       description: '15+ years in gas cylinder industry'
     },
     {
       name: 'Sarah Mohammed',
       position: 'Safety Coordinator',
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.30-PM-1.jpeg',
+  image: '/images/all/avatar.svg',
       description: 'Certified safety inspector'
     },
     {
       name: 'Omar Hassan',
       position: 'Delivery Manager',
-  image: '/images/all/hah-1.jpg',
+  image: '/images/all/avatar.svg',
       description: 'Expert in logistics coordination'
     }
   ];
@@ -173,7 +173,7 @@ const About = () => {
 
             <div className="relative">
               <img
-                src="/images/all/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg"
+                src="/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpeg"
                 alt="BBQ Gas delivery service history"
                 className="w-full h-96 object-cover rounded-3xl shadow-2xl"
               />
