@@ -42,7 +42,7 @@ export const siteConfig = {
           'Quality gas cylinders',
           'Professional technicians'
         ],
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.34-PM-1.jpeg' // cylinders group
+  image: '/images/all/WhatsApp-Image-2024-08-12-at-17.23.02_1d8dabae.jpg' // cylinders group
       },
       {
         id: 'bbq-gas-supply',
@@ -57,7 +57,7 @@ export const siteConfig = {
           'Event gas supply',
           'Emergency delivery'
         ],
-  image: '/images/all/icon3-cc0rawpixel-150x150.png' // BBQ grill (closest available)
+  image: '/images/all/service-03.jpg' // BBQ grill (closest available)
       },
       {
         id: 'new-cooking-gas-connection',
@@ -72,7 +72,7 @@ export const siteConfig = {
           'Quality assurance',
           'Same-day connection'
         ],
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg' // single cylinder
+  image: '/images/all/WhatsApp-Image-2024-08-12-at-17.23.00_ed22b6b0.jpg' // single cylinder
       },
       {
         id: 'bbq-cleaning-service',
@@ -87,7 +87,7 @@ export const siteConfig = {
           'Equipment sanitization',
           'Post-cleaning inspection'
         ],
-  image: '/images/all/hah-1.jpg' // cleaning grill (best match)
+  image: '/images/all/cleaning-grill-1-800x530-1.webp' // cleaning grill (best match)
       },
       {
         id: 'propane-gas-supplier',
@@ -102,7 +102,7 @@ export const siteConfig = {
           'Quality propane cylinders',
           'Bulk supply available'
         ],
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.30-PM-1.jpeg' // truck
+  image: '/images/all/WhatsApp-Image-2024-08-12-at-17.23.01_12f89805.jpg' // truck
       },
       {
         id: 'heater-gas-supplier',
@@ -117,7 +117,7 @@ export const siteConfig = {
           'Dubai-wide delivery',
           'Quality gas cylinders'
         ],
-  image: '/images/all/icon4-cc0rawpixel-150x150.png' // heater/cylinder (best available)
+  image: '/images/all/gas-heater-dubai-e1733135481287.jpeg' // heater/cylinder (best available)
       }
     ]
   },
@@ -165,19 +165,9 @@ export const siteConfig = {
       deliveryTime: '35-50 mins'
     },
     {
-      zone: 'Deira & Bur Dubai',
-      areas: ['Deira', 'Bur Dubai', 'Karama', 'Oud Metha'],
-      deliveryTime: '40-55 mins'
-    },
-    {
       zone: 'New Dubai Areas', 
       areas: ['Dubai Hills', 'JVC', 'JVT', 'Motor City', 'Sports City'],
       deliveryTime: '45-60 mins'
-    },
-    {
-      zone: 'Northern Emirates',
-      areas: ['Sharjah', 'Ajman', 'RAK', 'Fujairah'],
-      deliveryTime: '60-90 mins'
     }
   ],
 
