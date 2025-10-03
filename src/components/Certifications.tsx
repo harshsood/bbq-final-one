@@ -1,4 +1,3 @@
-import React from 'react';
 import { Shield, Award, CheckCircle, Phone } from 'lucide-react';
 
 const Certifications = () => {
@@ -22,8 +21,8 @@ const Certifications = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-orange-200 to-red-200 rounded-2xl transform rotate-2 opacity-30 group-hover:rotate-3 transition-transform duration-300"></div>
               <div className="relative bg-white p-6 rounded-2xl shadow-lg">
                 <img
-                  src="https://images.pexels.com/photos/1123262/pexels-photo-1123262.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Professional gas cylinder storage facility in Dubai"
+                  src="/images/all/civil-defence-dubai-logo1.jpg"
+                  alt="Dubai Civil Defence Certification"
                   className="w-full h-64 object-cover rounded-xl mb-4"
                 />
                 <div className="text-center">
@@ -37,8 +36,8 @@ const Certifications = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-200 to-green-200 rounded-2xl transform -rotate-2 opacity-30 group-hover:-rotate-3 transition-transform duration-300"></div>
               <div className="relative bg-white p-6 rounded-2xl shadow-lg">
                 <img
-                  src="https://images.pexels.com/photos/2539395/pexels-photo-2539395.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Professional gas cylinder delivery truck in Dubai"
+                  src="/images/all/EAFSM.png"
+                  alt="EAFSM Certification"
                   className="w-full h-64 object-cover rounded-xl mb-4"
                 />
                 <div className="text-center">
