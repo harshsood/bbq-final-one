@@ -35,7 +35,7 @@ const About = () => {
     {
       name: 'Ahmed Al-Rashid',
       position: 'Operations Manager',
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpeg',
+  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpe',
       description: '15+ years in gas cylinder industry'
     },
     {
@@ -96,7 +96,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-3xl transform rotate-3 opacity-20"></div>
               <img
-                src="/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpeg"
+                src="/images/all/WhatsApp-Image-2022-09-01-at-12.27.36-PM.jpeg"
                 alt="BBQ Gas professional team in Dubai"
                 className="relative w-full h-96 object-cover rounded-3xl shadow-2xl"
               />
