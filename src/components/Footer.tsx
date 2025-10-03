@@ -115,10 +115,6 @@ const Footer = () => {
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">Sitemap</a>
               </div>
             </div>
-            <div className="flex items-center space-x-2 text-sm text-gray-400 mt-4 md:mt-0">
-              <span>Licensed by</span>
-              <span className="text-white font-semibold">Dubai Municipality & ADNOC</span>
-            </div>
           </div>
         </div>
       </div>
