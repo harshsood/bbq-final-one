@@ -40,7 +40,7 @@ const HeroSection = () => {
   return (
     <Section background="gradient" className="min-h-screen pt-40 pb-16">
       <Container>
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Content */}
           <div className="space-y-8 animate-fade-in-up">
             <div>
