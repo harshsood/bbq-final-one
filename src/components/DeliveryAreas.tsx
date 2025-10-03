@@ -62,7 +62,7 @@ const DeliveryAreas = () => {
         </div>
 
         {/* Delivery Features */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-4 gap-8 mb-16">
           {features.map((feature, index) => (
             <div key={index} className="bg-white p-6 rounded-2xl shadow-lg text-center group hover:shadow-xl transition-all duration-300">
               <div className="w-16 h-16 bg-gradient-to-r from-orange-100 to-red-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
