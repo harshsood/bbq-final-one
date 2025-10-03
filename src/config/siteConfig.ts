@@ -42,7 +42,7 @@ export const siteConfig = {
           'Quality gas cylinders',
           'Professional technicians'
         ],
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.34-PM-1.jpeg'
+  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.30-PM-1.jpeg' // team/technician
       },
       {
         id: 'bbq-gas-supply',
@@ -57,7 +57,7 @@ export const siteConfig = {
           'Event gas supply',
           'Emergency delivery'
         ],
-  image: '/images/all/civil-defence-dubai-logo1.jpg'
+  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.36-PM.jpeg' // cylinder/delivery
       },
       {
         id: 'new-cooking-gas-connection',
@@ -72,7 +72,7 @@ export const siteConfig = {
           'Quality assurance',
           'Same-day connection'
         ],
-  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg'
+  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpeg' // installation/team
       },
       {
         id: 'bbq-cleaning-service',
@@ -87,7 +87,7 @@ export const siteConfig = {
           'Equipment sanitization',
           'Post-cleaning inspection'
         ],
-  image: '/images/all/EAFSM.png'
+  image: '/images/all/icon4-cc0rawpixel-150x150.png' // heater/cylinder
       },
       {
         id: 'propane-gas-supplier',
@@ -102,7 +102,7 @@ export const siteConfig = {
           'Quality propane cylinders',
           'Bulk supply available'
         ],
-  image: '/images/all/civil-defence-dubai-logo1.jpg'
+  image: '/images/all/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg' // delivery truck/cylinder
       },
       {
         id: 'heater-gas-supplier',
@@ -117,7 +117,7 @@ export const siteConfig = {
           'Dubai-wide delivery',
           'Quality gas cylinders'
         ],
-  image: '/images/all/EAFSM.png'
+  image: '/images/all/hah-1.jpg' // cleaning/team
       }
     ]
   },

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, Users, Clock, MapPin, Shield, CheckCircle, Star, Truck } from 'lucide-react';
 
 const About = () => {
@@ -36,19 +35,19 @@ const About = () => {
     {
       name: 'Ahmed Al-Rashid',
       position: 'Operations Manager',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpeg',
       description: '15+ years in gas cylinder industry'
     },
     {
       name: 'Sarah Mohammed',
       position: 'Safety Coordinator',
-      image: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400',
+  image: '/images/all/WhatsApp-Image-2022-09-01-at-11.48.30-PM-1.jpeg',
       description: 'Certified safety inspector'
     },
     {
       name: 'Omar Hassan',
       position: 'Delivery Manager',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
+  image: '/images/all/hah-1.jpg',
       description: 'Expert in logistics coordination'
     }
   ];
@@ -97,7 +96,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-3xl transform rotate-3 opacity-20"></div>
               <img
-                src="https://images.pexels.com/photos/1123262/pexels-photo-1123262.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/all/WhatsApp-Image-2022-09-01-at-11.48.28-PM.jpeg"
                 alt="BBQ Gas professional team in Dubai"
                 className="relative w-full h-96 object-cover rounded-3xl shadow-2xl"
               />
@@ -174,7 +173,7 @@ const About = () => {
 
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/2539395/pexels-photo-2539395.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/all/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg"
                 alt="BBQ Gas delivery service history"
                 className="w-full h-96 object-cover rounded-3xl shadow-2xl"
               />

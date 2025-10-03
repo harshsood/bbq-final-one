@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ArrowRight, Shield, CheckCircle, Truck } from 'lucide-react';
 import { siteConfig } from '../../config/siteConfig';
 import Button from '../ui/Button';
@@ -97,8 +97,8 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-3xl transform rotate-3 opacity-20"></div>
             <div className="relative bg-white p-8 rounded-3xl shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/1123262/pexels-photo-1123262.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="BBQ Gas Cylinder New Connection Service in Dubai"
+                src="/images/all/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg"
+                alt="BBQ Gas Delivery Truck in Dubai"
                 className="w-full h-96 object-cover rounded-2xl"
               />
               

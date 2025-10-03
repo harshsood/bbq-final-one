@@ -20,11 +20,23 @@ const Certifications = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-200 to-red-200 rounded-2xl transform rotate-2 opacity-30 group-hover:rotate-3 transition-transform duration-300"></div>
               <div className="relative bg-white p-6 rounded-2xl shadow-lg">
-                <img
-                  src="/images/all/civil-defence-dubai-logo1.jpg"
-                  alt="Dubai Civil Defence Certification"
-                  className="w-full h-64 object-cover rounded-xl mb-4"
-                />
+                <div className="flex flex-col items-center">
+                  <img
+                    src="/images/all/civil-defence-dubai-logo1.jpg"
+                    alt="Dubai Civil Defence Certification"
+                    className="h-32 object-contain rounded-xl mb-4 bg-white"
+                  />
+                  <img
+                    src="/images/all/EAFSM.png"
+                    alt="EAFSM Certification"
+                    className="h-32 object-contain rounded-xl mb-4 bg-white"
+                  />
+                  <img
+                    src="/images/all/sce-logo.png"
+                    alt="SCE Certification"
+                    className="h-32 object-contain rounded-xl mb-4 bg-white"
+                  />
+                </div>
                 <div className="text-center">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Dubai Municipality Licensed</h3>
                   <p className="text-gray-600">Certified gas cylinder storage and distribution facility</p>
@@ -35,14 +47,22 @@ const Certifications = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-200 to-green-200 rounded-2xl transform -rotate-2 opacity-30 group-hover:-rotate-3 transition-transform duration-300"></div>
               <div className="relative bg-white p-6 rounded-2xl shadow-lg">
-                <img
-                  src="/images/all/EAFSM.png"
-                  alt="EAFSM Certification"
-                  className="w-full h-64 object-cover rounded-xl mb-4"
-                />
-                <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">ISO 9001:2015 Certified</h3>
-                  <p className="text-gray-600">Quality management system for gas cylinder services</p>
+                <div className="flex flex-col items-center">
+                  <img
+                    src="/images/all/cropped-Untitled-design-1.png"
+                    alt="Additional Certification"
+                    className="h-32 object-contain rounded-xl mb-4 bg-white"
+                  />
+                  <img
+                    src="/images/all/cropped-Untitled-design-35x68.png"
+                    alt="Additional Certification 2"
+                    className="h-32 object-contain rounded-xl mb-4 bg-white"
+                  />
+                  <img
+                    src="/images/all/download-1.png"
+                    alt="Additional Certification 3"
+                    className="h-32 object-contain rounded-xl mb-4 bg-white"
+                  />
                 </div>
               </div>
             </div>
