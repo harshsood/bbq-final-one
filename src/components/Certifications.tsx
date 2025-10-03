@@ -18,9 +18,9 @@ const Certifications = () => {
             <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">Certificates</h2>
             <div className="flex flex-row flex-wrap justify-center items-center gap-8">
               <img src="/images/all/sce-logo.png" alt="Supreme Council of Energy" className="h-32 w-auto object-contain bg-white rounded-xl shadow p-4" />
-              <img src="/images/all/cropped-Untitled-design-1.png" alt="Emirates Authority for Standardization & Metrology" className="h-32 w-auto object-contain bg-white rounded-xl shadow p-4" />
+              <img src="/images/all/EAFSM.png" alt="Emirates Authority for Standardization & Metrology" className="h-32 w-auto object-contain bg-white rounded-xl shadow p-4" />
               <img src="/images/all/download-1.png" alt="Industry Regulatory Authority" className="h-32 w-auto object-contain bg-white rounded-xl shadow p-4" />
-              <img src="/images/all/cropped-Untitled-design-35x68.png" alt="Roads & Transport Authority" className="h-32 w-auto object-contain bg-white rounded-xl shadow p-4" />
+              <img src="/images/all/hah-1.jpg" alt="Roads & Transport Authority" className="h-32 w-auto object-contain bg-white rounded-xl shadow p-4" />
               <img src="/images/all/civil-defence-dubai-logo1.jpg" alt="Dubai Civil Defence" className="h-32 w-auto object-contain bg-white rounded-xl shadow p-4" />
             </div>
           </div>
