@@ -44,7 +44,7 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="space-y-8 animate-fade-in-up">
             <div>
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6" style="padding-top: 1.5em;">
                 Dubai's Premier
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
