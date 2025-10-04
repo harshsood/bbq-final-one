@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Award, Users, Clock, MapPin } from 'lucide-react';
+import Modal from './ui/Modal';
+import OrderForm from './OrderForm';
 
 const About = () => {
+  const [showConnectionModal, setShowConnectionModal] = useState(false);
+
   const stats = [
     { icon: Users, number: '5000+', label: 'Happy Customers' },
     { icon: Clock, number: 'Fast', label: 'Response Time' },
@@ -50,7 +54,10 @@ const About = () => {
               </div>
             </div>
 
-            <button className="mt-8 bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <button
+              onClick={() => setShowConnectionModal(true)}
+              className="mt-8 bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
+            >
               Get New Connection
             </button>
           </div>
@@ -94,6 +101,14 @@ const About = () => {
           ))}
         </div>
       </div>
+
+      <Modal
+        isOpen={showConnectionModal}
+        onClose={() => setShowConnectionModal(false)}
+        title="Get New Gas Connection"
+      >
+        <OrderForm formType="connection" onClose={() => setShowConnectionModal(false)} />
+      </Modal>
     </section>
   );
 };

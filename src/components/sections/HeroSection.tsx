@@ -4,12 +4,16 @@ import { siteConfig } from '../../config/siteConfig';
 import Button from '../ui/Button';
 import Section from '../ui/Section';
 import Container from '../ui/Container';
+import Modal from '../ui/Modal';
+import OrderForm from '../OrderForm';
 
 const HeroSection = () => {
   const [currentText, setCurrentText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [typeSpeed, setTypeSpeed] = useState(150);
+  const [showConnectionModal, setShowConnectionModal] = useState(false);
+  const [showOrderModal, setShowOrderModal] = useState(false);
 
   const texts = ['BBQ Gas', 'Propane Gas', 'Heater Gas'];
 
@@ -60,11 +64,11 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg">
+              <Button size="lg" onClick={() => setShowConnectionModal(true)}>
                 <span>Get New Connection</span>
                 <ArrowRight size={20} />
               </Button>
-              <Button variant="outline" size="lg">
+              <Button variant="outline" size="lg" onClick={() => setShowOrderModal(true)}>
                 BBQ Gas Delivery
               </Button>
             </div>
@@ -118,6 +122,22 @@ const HeroSection = () => {
           </div>
         </div>
       </Container>
+
+      <Modal
+        isOpen={showConnectionModal}
+        onClose={() => setShowConnectionModal(false)}
+        title="Get New Gas Connection"
+      >
+        <OrderForm formType="connection" onClose={() => setShowConnectionModal(false)} />
+      </Modal>
+
+      <Modal
+        isOpen={showOrderModal}
+        onClose={() => setShowOrderModal(false)}
+        title="Order Gas Cylinders"
+      >
+        <OrderForm formType="order" onClose={() => setShowOrderModal(false)} />
+      </Modal>
     </Section>
   );
 };

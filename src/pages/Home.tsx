@@ -4,6 +4,7 @@ import Services from '../components/Services';
 import DeliveryAreas from '../components/DeliveryAreas';
 import Certifications from '../components/Certifications';
 import Testimonials from '../components/Testimonials';
+import PopupForm from '../components/PopupForm';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Certifications />
       <Testimonials />
       <DeliveryAreas />
+      <PopupForm delay={7000} />
     </>
   );
 };

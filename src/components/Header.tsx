@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone, MapPin, Clock } from 'lucide-react';
+import Modal from './ui/Modal';
+import OrderForm from './OrderForm';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [showOrderModal, setShowOrderModal] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -88,7 +91,10 @@ const Header = () => {
             >
               Contact
             </Link>
-            <button className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <button
+              onClick={() => setShowOrderModal(true)}
+              className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg"
+            >
               Order Now
             </button>
           </nav>
@@ -143,12 +149,26 @@ const Header = () => {
             >
               Contact
             </Link>
-            <button className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
+            <button
+              onClick={() => {
+                setShowOrderModal(true);
+                setIsMenuOpen(false);
+              }}
+              className="w-full bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-6 py-2 rounded-lg font-medium transition-colors"
+            >
               Order Now
             </button>
           </nav>
         </div>
       </header>
+
+      <Modal
+        isOpen={showOrderModal}
+        onClose={() => setShowOrderModal(false)}
+        title="Order Gas Cylinders"
+      >
+        <OrderForm formType="order" onClose={() => setShowOrderModal(false)} />
+      </Modal>
     </>
   );
 };

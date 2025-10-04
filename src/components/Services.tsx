@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Home, Building, Wrench, Clock, Shield, Truck } from 'lucide-react';
+import Modal from './ui/Modal';
+import OrderForm from './OrderForm';
 
 const Services = () => {
+  const [showOrderModal, setShowOrderModal] = useState(false);
+
   const services = [
     {
       icon: Home,
@@ -93,7 +97,10 @@ const Services = () => {
 
               <div className="flex items-center justify-between">
                 <span className="text-lg font-bold text-blue-600">{service.price}</span>
-                <button className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
+                <button
+                  onClick={() => setShowOrderModal(true)}
+                  className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105"
+                >
                   Order Now
                 </button>
               </div>
@@ -114,6 +121,14 @@ const Services = () => {
           ))}
         </div>
       </div>
+
+      <Modal
+        isOpen={showOrderModal}
+        onClose={() => setShowOrderModal(false)}
+        title="Order Gas Cylinders"
+      >
+        <OrderForm formType="order" onClose={() => setShowOrderModal(false)} />
+      </Modal>
     </section>
   );
 };
