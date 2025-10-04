@@ -23,7 +23,7 @@ export const siteConfig = {
   hours: {
     delivery: 'Same Day Connection',
     support: 'Professional Installation',
-    emergency: '24/7 Emergency'
+    emergency: 'Emergency Service'
   },
 
   // Services
@@ -182,7 +182,7 @@ export const siteConfig = {
   // SEO
   seo: {
     title: 'BBQ Gas Dubai - Premium Gas Cylinder Supplier | Same Day Delivery',
-    description: 'BBQ Gas Dubai - Leading gas cylinder supplier in UAE. Fast delivery, licensed service, competitive prices. Order propane, butane & cooking gas cylinders online. 24/7 support.',
+    description: 'BBQ Gas Dubai - Leading gas cylinder supplier in UAE. Fast delivery, licensed service, competitive prices. Order propane, butane & cooking gas cylinders online.',
     keywords: 'gas cylinder Dubai, propane gas UAE, butane cylinder, cooking gas delivery, BBQ gas supplier, gas cylinder refill Dubai, emergency gas delivery'
   },
 

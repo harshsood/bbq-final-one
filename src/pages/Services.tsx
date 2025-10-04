@@ -9,8 +9,8 @@ const Services = () => {
   const additionalServices = [
     {
       icon: Clock,
-      title: '24/7 Emergency Service',
-      description: 'Round-the-clock emergency gas cylinder delivery and repair service across Dubai.'
+      title: 'Fast Delivery',
+      description: 'Quick and efficient gas cylinder delivery service across Dubai.'
     },
     {
       icon: Shield,
@@ -63,8 +63,8 @@ const Services = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-400"> Dubai</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto mb-8">
-            Complete gas cylinder solutions for homes and businesses in Dubai. From residential cooking gas 
-            to commercial bulk supply with professional installation and 24/7 emergency services.
+            Complete gas cylinder solutions for homes and businesses in Dubai. From residential cooking gas
+            to commercial bulk supply with professional installation and emergency services.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">

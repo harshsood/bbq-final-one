@@ -3,7 +3,7 @@ import { Award, Users, Clock, MapPin, Shield, CheckCircle, Star, Truck } from 'l
 const About = () => {
   const stats = [
     { icon: Users, number: '8000+', label: 'Happy Customers' },
-    { icon: Clock, number: '24/7', label: 'Support Available' },
+    { icon: Clock, number: 'Fast', label: 'Response Time' },
     { icon: Award, number: '15+', label: 'Years Experience' },
     { icon: MapPin, number: '100%', label: 'Dubai Coverage' }
   ];
@@ -22,7 +22,7 @@ const About = () => {
     {
       icon: Truck,
       title: 'Reliable Service',
-      description: 'On-time delivery guaranteed with real-time tracking and 24/7 customer support for all your gas cylinder needs.'
+      description: 'On-time delivery guaranteed with real-time tracking and customer support for all your gas cylinder needs.'
     },
     {
       icon: Star,
@@ -88,7 +88,7 @@ const About = () => {
                   <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
                     <CheckCircle className="text-white" size={16} />
                   </div>
-                  <span className="text-gray-700">24/7 Emergency Gas Delivery Service</span>
+                  <span className="text-gray-700">Emergency Gas Delivery Service</span>
                 </div>
               </div>
             </div>

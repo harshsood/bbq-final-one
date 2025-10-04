@@ -80,7 +80,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Operating Hours</p>
-                    <p className="text-gray-600">24/7 Gas Delivery</p>
+                    <p className="text-gray-600">Gas Delivery Service</p>
                   </div>
                 </div>
               </div>

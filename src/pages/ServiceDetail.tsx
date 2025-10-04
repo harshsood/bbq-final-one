@@ -54,11 +54,11 @@ const ServiceDetail = () => {
                   <div className="text-gray-300">Starting Price</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-orange-400">24/7</div>
-                  <div className="text-gray-300">Available</div>
+                  <div className="text-3xl font-bold text-orange-400">Same Day</div>
+                  <div className="text-gray-300">Service</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-orange-400">Same Day</div>
+                  <div className="text-3xl font-bold text-orange-400">Licensed</div>
                   <div className="text-gray-300">Service</div>
                 </div>
               </div>

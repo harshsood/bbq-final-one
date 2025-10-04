@@ -27,16 +27,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Order Hotline',
-      info: '+971 4 123 4567',
       info: '+971 58 282 1712',
       description: 'Call us for immediate gas cylinder orders',
       color: 'orange',
-      available: '24/7 Available'
+      available: 'Fast Response'
     },
     {
       icon: MessageCircle,
       title: 'WhatsApp Orders',
-      info: '+971 50 123 4567',
       info: '+971 58 282 1712',
       description: 'Quick orders via WhatsApp messaging',
       color: 'green',
@@ -54,10 +52,9 @@ const Contact = () => {
       icon: Headphones,
       title: 'Emergency Service',
       info: '+971 58 282 1712',
-      info: '+971 58 282 1712',
       description: 'Emergency gas cylinder delivery',
       color: 'red',
-      available: '24/7 Emergency'
+      available: 'Emergency Service'
     }
   ];
 
@@ -70,7 +67,7 @@ const Contact = () => {
   const faqs = [
     {
       question: 'What are your delivery hours?',
-      answer: 'We deliver gas cylinders 24/7 across Dubai. Same-day delivery is available for orders placed before 6 PM.'
+      answer: 'We deliver gas cylinders across Dubai. Same-day delivery is available for orders placed before 6 PM.'
     },
     {
       question: 'Do you provide installation service?',
@@ -106,7 +103,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center space-x-2">
               <Clock className="text-blue-500" size={16} />
-              <span>24/7 Service</span>
+              <span>Fast Service</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="text-orange-500" size={16} />
@@ -287,7 +284,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900">Operating Hours</p>
-                      <p className="text-gray-600">24/7 Gas Delivery</p>
+                      <p className="text-gray-600">Gas Delivery Service</p>
                     </div>
                   </div>
                 </div>
